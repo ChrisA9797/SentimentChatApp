@@ -1,0 +1,36 @@
+{
+  "name": "sentimentChatApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisA9797/SentimentChatApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisA9797/SentimentChatApp/issues"
+  },
+  "homepage": "https://github.com/ChrisA9797/SentimentChatApp#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "next": "^10.2.3",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sentiment": "^5.0.2"
+  }
+}
